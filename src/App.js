@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+// import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import './App.css';
 import ToDoContainer from './containers/ToDoContainer'
 
@@ -23,7 +23,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <AmplifySignOut />
+      {/* <AmplifySignOut /> */}
     </div>
   );
 }
